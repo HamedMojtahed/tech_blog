@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:techblog/gen/assets.gen.dart';
 import 'package:techblog/models/fake_data.dart';
-import 'gen/assets.gen.dart';
+
 import 'my_colors.dart';
 
 class TechDivider extends StatelessWidget {
@@ -21,9 +22,10 @@ class TechDivider extends StatelessWidget {
     );
   }
 }
+
 //
 class MainTagsWidget extends StatelessWidget {
-   MainTagsWidget({
+  MainTagsWidget({
     Key? key,
     required this.texttheme,
     required this.index,

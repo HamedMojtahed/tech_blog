@@ -3,8 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:techblog/gen/assets.gen.dart';
-import 'package:techblog/my_colors.dart';
-import 'package:techblog/my_strings.dart';
+import 'package:techblog/components/my_colors.dart';
+
+import 'package:techblog/components/my_strings.dart';
 import 'package:techblog/view/my_categories.dart';
 import 'package:validators/validators.dart';
 

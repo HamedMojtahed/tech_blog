@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:techblog/my_colors.dart';
+import 'components/my_colors.dart';
 import 'package:techblog/view/main_screen.dart';
-import 'package:techblog/view/my_categories.dart';
+
 
 void main() {
   //! StatusBar Color , NavigationBar Color
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.w700),
         ),
       ),
-      home: const MyCategories(),
+      home: const MainScreen(),
       //MainScreen(),
     );
   }
